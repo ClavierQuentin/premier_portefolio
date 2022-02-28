@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf57503e64.js" crossorigin="anonymous"></script>
+    <title>Ma présentation</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="navlist">
+                <li><a class="lien" href="index.html">A propos de moi</a></li>
+                <li><a  class="lien" href="mes-competences.html">Mes compétences et projets</a></li>
+                <li><a class="lien" href="projet.html">Mon projet de formation</a></li>
+                <li><a class="lien" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="centrer para">
+        <h2>Mes compétences techniques</h2>
+        <table class="centrer" style="padding-top: 15px;">
+            <tr><td><label for="anglais" class="flex-centrer"><img  id="union-jack" src="images/union-jack.png" alt="Drapeau britannique" title="Union Jack"></label></td><td><progress id= "anglais" max="100" value="100"></progress></td></tr>
+            <tr><td><label for="html"class="flex-centrer"><i class="fab fa-html5 fa-4x"style="color: tomato;" title="HTML5"></i></label></td><td><progress class="progress" id= "html" max="100" value="95"></progress></td></tr>
+            <tr><td><label for="css" class="flex-centrer"><i class="fab fa-css3-alt fa-4x" style="color: blue;" title="CSS3"></i></label></td><td><progress id= "css" max="100" value="65"></progress></td></tr>
+            <tr><td><label for="js" class="flex-centrer"><i class="fab fa-js fa-4x" style="color: yellowgreen;" title="JAVASCRIPT"></i></label></td><td><progress id= "js" max="100" value="40"></progress></td></tr>
+            <tr><td><label for="php" class="flex-centrer"><i class="fab fa-php fa-4x" style="color: #7278aa;" title="PHP"></i></label></td><td><progress id= "php" max="100" value="0"></progress></td></tr>
+            <tr><td><label for="bootstrap" class="flex-centrer"><i class="fab fa-bootstrap fa-4x" style="color: blue;" title="BOOTSTRAP"></i></label></td><td><progress id= "bootstrap" max="100" value="40"></progress></td></tr>
+            <tr><td><label for="github" class="flex-centrer"><i class="fab fa-github fa-4x" title="GITHUB"></i></label></td><td><progress id= "github" max="100" value="65"></progress></td></tr>
+        </table>
+    </div>
+        <h2>Portefolio de projets</h2>
+        <div style="display: flex; justify-content: space-around; margin: 5px;">
+            <div class="div_projets">
+                <div style="display: flex; justify-content: center;"><a href="https://roman-numbers-converter.netlify.app/" target="_blank"><img class="img_projets"src="images/convertisseur.png" alt=""></a></div>
+                <h3>Convertisseur en chiffres romains</h3>
+                <p style="width: 65%;">
+                    Premier exervice en Javascript où on convertis un ombre donné en chiffres romains.
+                </p>
+            </div>
+            <div class="div_projets">
+                <div style="display: flex; justify-content: center;"><a href="https://clavierquentin.github.io/odin_project_rock_paper//" target="_blank"><img class="img_projets" src="images/rock_paper_scissors.png" alt=""></a></div>
+                <h3>Pierre-feuille-ciseaux</h3>
+                <p style="width: 65%;">
+                    Premier gros projet utilisant Javascript avec The Odin Project où nous jouons à feuille-papier-ciseaux contre l'ordinateur
+                </p>
+            </div>
+            <div class="div_projets">
+                <div style="display: flex; justify-content: center;"><a href="https://clavierquentin.github.io/Calculator/" target="_blank"><img class="img_projets" src="images/calculator.png" alt=""></a></div>
+                <h3>Calculette</h3>
+                <p style="width: 65%;">
+                Exercice de mise en forme d'une calculette avec les grid de CSS et implémentation des calculs de base de mathématique.
+                </p>
+            </div>
+            <div class="div_projets">
+                <div style="display: flex; justify-content: center;"><a href="https://clavierquentin.github.io/etch-a-sketch/" target="_blank"><img class="img_projets" src="images/etch-a-sketch.png" alt=""></a></div>
+                <h3>Etch a Sketch</h3>
+                <p style="width: 65%;">
+                    Deuxième gros projet de The Odin Project où nous dessinons au passage de la souris.
+                </p>
+            </div>
+        </div>
+    <footer>
+        <p>	&copy; Quentin Clavier 2022</p>
+        <div class="right">
+            <a href="https://twitter.com/quentin_clavier" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/cl_quentin/?hl=fr" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/quentin-clavier/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
